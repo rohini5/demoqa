@@ -247,7 +247,6 @@ class TestElementIcon:
         actual = driver.find_element_by_css_selector('#app > div > div > div.row > div.col-12.mt-4.col-md-6 > div:nth-child(1) > p').text
         assert_that(expected, equal_to(actual))
 
-    def test_
-
+   
 
 
